@@ -1,3 +1,3 @@
 {
-  "conventionalCommits.scopes": ["core", "core-base", "core-setup"]
+  "conventionalCommits.scopes": ["core", "core-base", "core-setup", "core-font"]
 }
