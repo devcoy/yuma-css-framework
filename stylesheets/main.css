@@ -1,0 +1,1051 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0; }
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block; }
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent; }
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%; }
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none; }
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline; }
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto; }
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block; }
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item; }
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none; }
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none; }
+
+/**
+ *
+ * Base config
+ *
+ */
+/*=============================================
+=            Media Queries                    =
+=============================================*/
+/*=====  End of Media Queries         ======*/
+/*=============================================
+=            Columns                          =
+=============================================*/
+/*=====  End of Grid                  ======*/
+/*=============================================
+=            Fonts                            =
+=============================================*/
+/*=====  End of Fonts                 ======*/
+/**
+ *
+ * Setup your variables
+ *
+ */
+/*=============================================
+=            Colors                           =
+=============================================*/
+/*=====  End of Colors                  ======*/
+/*=============================================
+=            Fonts                            =
+=============================================*/
+/*=====  End of Fonts                 ======*/
+/**
+ *
+ * Font
+ *
+ */
+/*=============================================
+=            Global                          =
+=============================================*/
+html {
+  line-height: 1.3rem;
+  /*----------  Small screen only  ----------*/
+  /*----------  Large screen and up  ----------*/
+  /*----------  Font style  ----------*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.9); }
+  @media only screen and (min-width: 0) {
+    html {
+      font-size: 12px; }
+      html * {
+        font-size: 1.25rem; } }
+  @media only screen and (min-width: 1440px) {
+    html {
+      font-size: 13px; }
+      html * {
+        font-size: 1.25rem; } }
+
+/*=====  End of Global               ======*/
+/*=============================================
+=            Heading                          =
+=============================================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  line-height: 1.3em; }
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: inherit; }
+
+h1 {
+  font-size: 2.3rem;
+  line-height: 1.2em;
+  margin: 1.5333333333rem 0 1.15rem 0; }
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.2em;
+  margin: 1.3333333333rem 0 1rem 0; }
+
+h3 {
+  font-size: 1.7rem;
+  line-height: 1.2em;
+  margin: 1.1333333333rem 0 0.85rem 0; }
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.2em;
+  margin: 1rem 0 0.75rem 0; }
+
+h5 {
+  font-size: 1.3rem;
+  line-height: 1.2em;
+  margin: 0.8666666667rem 0 0.65rem 0; }
+
+h6 {
+  font-size: 1.25rem;
+  line-height: 1.2em;
+  margin: 0.8333333333rem 0 0.625rem 0; }
+
+/*=====  End of Heading               ======*/
+/*=============================================
+=            Text                             =
+=============================================*/
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: 500; }
+
+small {
+  font-size: 1rem; }
+
+a {
+  text-decoration: none; }
+
+/*=====  End of Text                  ======*/
+/*=============================================
+=            Container                        =
+=============================================*/
+/*----------  Small screen only  ----------*/
+.container {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto; }
+
+.container-fluid {
+  max-width: 1440px;
+  width: 95%;
+  margin: 0 auto; }
+
+/*----------  Medium screen only  ----------*/
+@media only screen and (min-width: 541px) and (max-width: 960px) {
+  .container {
+    width: 80%; }
+
+  .container-fluid {
+    width: 90%;
+    margin: 0 auto; } }
+/*----------  Large screen only  ----------*/
+@media only screen and (min-width: 541px) and (max-width: 960px) {
+  .container {
+    width: 75%; }
+
+  .container-fluid {
+    width: 85%;
+    margin: 0 auto; } }
+/*----------  Extra large screen up  ----------*/
+@media only screen and (min-width: 1441px) {
+  .container {
+    width: 75%; }
+
+  .container-fluid {
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto; } }
+/*=====  End of Container              ======*/
+/*=============================================
+=            Base layout                      =
+=============================================*/
+.column .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem; }
+
+/*=====  End of Base layout             ======*/
+/*=============================================
+=            Dynamic layout                   =
+=============================================*/
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  /* Clear */ }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row .column {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    min-height: 1px;
+    margin-bottom: 1.2rem;
+    background-color: burlywood !important;
+    /*----------  Small screen only  ----------*/
+    /*----------  Medium screen only  ----------*/
+    /*----------  Large screen only  ----------*/
+    /*----------  Extra large screen up  ----------*/ }
+    .row .column[class*="push-"], .row .column[class*="pull-"] {
+      position: relative; }
+    .row .column.sm-1 {
+      width: 8.3333333333%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-2 {
+      width: 16.6666666667%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-3 {
+      width: 25%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-4 {
+      width: 33.3333333333%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-5 {
+      width: 41.6666666667%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-6 {
+      width: 50%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-7 {
+      width: 58.3333333333%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-8 {
+      width: 66.6666666667%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-9 {
+      width: 75%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-10 {
+      width: 83.3333333333%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-11 {
+      width: 91.6666666667%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.sm-12 {
+      width: 100%;
+      margin-left: auto;
+      left: auto;
+      right: auto; }
+    .row .column.offset-sm-1 {
+      margin-left: 8.3333333333%; }
+    .row .column.pull-sm-1 {
+      right: 8.3333333333%; }
+    .row .column.push-sm-1 {
+      left: 8.3333333333%; }
+    .row .column.offset-sm-2 {
+      margin-left: 16.6666666667%; }
+    .row .column.pull-sm-2 {
+      right: 16.6666666667%; }
+    .row .column.push-sm-2 {
+      left: 16.6666666667%; }
+    .row .column.offset-sm-3 {
+      margin-left: 25%; }
+    .row .column.pull-sm-3 {
+      right: 25%; }
+    .row .column.push-sm-3 {
+      left: 25%; }
+    .row .column.offset-sm-4 {
+      margin-left: 33.3333333333%; }
+    .row .column.pull-sm-4 {
+      right: 33.3333333333%; }
+    .row .column.push-sm-4 {
+      left: 33.3333333333%; }
+    .row .column.offset-sm-5 {
+      margin-left: 41.6666666667%; }
+    .row .column.pull-sm-5 {
+      right: 41.6666666667%; }
+    .row .column.push-sm-5 {
+      left: 41.6666666667%; }
+    .row .column.offset-sm-6 {
+      margin-left: 50%; }
+    .row .column.pull-sm-6 {
+      right: 50%; }
+    .row .column.push-sm-6 {
+      left: 50%; }
+    .row .column.offset-sm-7 {
+      margin-left: 58.3333333333%; }
+    .row .column.pull-sm-7 {
+      right: 58.3333333333%; }
+    .row .column.push-sm-7 {
+      left: 58.3333333333%; }
+    .row .column.offset-sm-8 {
+      margin-left: 66.6666666667%; }
+    .row .column.pull-sm-8 {
+      right: 66.6666666667%; }
+    .row .column.push-sm-8 {
+      left: 66.6666666667%; }
+    .row .column.offset-sm-9 {
+      margin-left: 75%; }
+    .row .column.pull-sm-9 {
+      right: 75%; }
+    .row .column.push-sm-9 {
+      left: 75%; }
+    .row .column.offset-sm-10 {
+      margin-left: 83.3333333333%; }
+    .row .column.pull-sm-10 {
+      right: 83.3333333333%; }
+    .row .column.push-sm-10 {
+      left: 83.3333333333%; }
+    .row .column.offset-sm-11 {
+      margin-left: 91.6666666667%; }
+    .row .column.pull-sm-11 {
+      right: 91.6666666667%; }
+    .row .column.push-sm-11 {
+      left: 91.6666666667%; }
+    .row .column.offset-sm-12 {
+      margin-left: 100%; }
+    .row .column.pull-sm-12 {
+      right: 100%; }
+    .row .column.push-sm-12 {
+      left: 100%; }
+    @media only screen and (min-width: 541px) and (max-width: 960px) {
+      .row .column.md-1 {
+        width: 8.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-2 {
+        width: 16.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-3 {
+        width: 25%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-4 {
+        width: 33.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-5 {
+        width: 41.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-6 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-7 {
+        width: 58.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-8 {
+        width: 66.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-9 {
+        width: 75%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-10 {
+        width: 83.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-11 {
+        width: 91.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.md-12 {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.offset-md-1 {
+        margin-left: 8.3333333333%; }
+      .row .column.pull-md-1 {
+        right: 8.3333333333%; }
+      .row .column.push-md-1 {
+        left: 8.3333333333%; }
+      .row .column.offset-md-2 {
+        margin-left: 16.6666666667%; }
+      .row .column.pull-md-2 {
+        right: 16.6666666667%; }
+      .row .column.push-md-2 {
+        left: 16.6666666667%; }
+      .row .column.offset-md-3 {
+        margin-left: 25%; }
+      .row .column.pull-md-3 {
+        right: 25%; }
+      .row .column.push-md-3 {
+        left: 25%; }
+      .row .column.offset-md-4 {
+        margin-left: 33.3333333333%; }
+      .row .column.pull-md-4 {
+        right: 33.3333333333%; }
+      .row .column.push-md-4 {
+        left: 33.3333333333%; }
+      .row .column.offset-md-5 {
+        margin-left: 41.6666666667%; }
+      .row .column.pull-md-5 {
+        right: 41.6666666667%; }
+      .row .column.push-md-5 {
+        left: 41.6666666667%; }
+      .row .column.offset-md-6 {
+        margin-left: 50%; }
+      .row .column.pull-md-6 {
+        right: 50%; }
+      .row .column.push-md-6 {
+        left: 50%; }
+      .row .column.offset-md-7 {
+        margin-left: 58.3333333333%; }
+      .row .column.pull-md-7 {
+        right: 58.3333333333%; }
+      .row .column.push-md-7 {
+        left: 58.3333333333%; }
+      .row .column.offset-md-8 {
+        margin-left: 66.6666666667%; }
+      .row .column.pull-md-8 {
+        right: 66.6666666667%; }
+      .row .column.push-md-8 {
+        left: 66.6666666667%; }
+      .row .column.offset-md-9 {
+        margin-left: 75%; }
+      .row .column.pull-md-9 {
+        right: 75%; }
+      .row .column.push-md-9 {
+        left: 75%; }
+      .row .column.offset-md-10 {
+        margin-left: 83.3333333333%; }
+      .row .column.pull-md-10 {
+        right: 83.3333333333%; }
+      .row .column.push-md-10 {
+        left: 83.3333333333%; }
+      .row .column.offset-md-11 {
+        margin-left: 91.6666666667%; }
+      .row .column.pull-md-11 {
+        right: 91.6666666667%; }
+      .row .column.push-md-11 {
+        left: 91.6666666667%; }
+      .row .column.offset-md-12 {
+        margin-left: 100%; }
+      .row .column.pull-md-12 {
+        right: 100%; }
+      .row .column.push-md-12 {
+        left: 100%; } }
+    @media only screen and (min-width: 961px) and (max-width: 1440px) {
+      .row .column.lg-1 {
+        width: 8.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-2 {
+        width: 16.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-3 {
+        width: 25%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-4 {
+        width: 33.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-5 {
+        width: 41.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-6 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-7 {
+        width: 58.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-8 {
+        width: 66.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-9 {
+        width: 75%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-10 {
+        width: 83.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-11 {
+        width: 91.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.lg-12 {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.offset-lg-1 {
+        margin-left: 8.3333333333%; }
+      .row .column.pull-lg-1 {
+        right: 8.3333333333%; }
+      .row .column.push-lg-1 {
+        left: 8.3333333333%; }
+      .row .column.offset-lg-2 {
+        margin-left: 16.6666666667%; }
+      .row .column.pull-lg-2 {
+        right: 16.6666666667%; }
+      .row .column.push-lg-2 {
+        left: 16.6666666667%; }
+      .row .column.offset-lg-3 {
+        margin-left: 25%; }
+      .row .column.pull-lg-3 {
+        right: 25%; }
+      .row .column.push-lg-3 {
+        left: 25%; }
+      .row .column.offset-lg-4 {
+        margin-left: 33.3333333333%; }
+      .row .column.pull-lg-4 {
+        right: 33.3333333333%; }
+      .row .column.push-lg-4 {
+        left: 33.3333333333%; }
+      .row .column.offset-lg-5 {
+        margin-left: 41.6666666667%; }
+      .row .column.pull-lg-5 {
+        right: 41.6666666667%; }
+      .row .column.push-lg-5 {
+        left: 41.6666666667%; }
+      .row .column.offset-lg-6 {
+        margin-left: 50%; }
+      .row .column.pull-lg-6 {
+        right: 50%; }
+      .row .column.push-lg-6 {
+        left: 50%; }
+      .row .column.offset-lg-7 {
+        margin-left: 58.3333333333%; }
+      .row .column.pull-lg-7 {
+        right: 58.3333333333%; }
+      .row .column.push-lg-7 {
+        left: 58.3333333333%; }
+      .row .column.offset-lg-8 {
+        margin-left: 66.6666666667%; }
+      .row .column.pull-lg-8 {
+        right: 66.6666666667%; }
+      .row .column.push-lg-8 {
+        left: 66.6666666667%; }
+      .row .column.offset-lg-9 {
+        margin-left: 75%; }
+      .row .column.pull-lg-9 {
+        right: 75%; }
+      .row .column.push-lg-9 {
+        left: 75%; }
+      .row .column.offset-lg-10 {
+        margin-left: 83.3333333333%; }
+      .row .column.pull-lg-10 {
+        right: 83.3333333333%; }
+      .row .column.push-lg-10 {
+        left: 83.3333333333%; }
+      .row .column.offset-lg-11 {
+        margin-left: 91.6666666667%; }
+      .row .column.pull-lg-11 {
+        right: 91.6666666667%; }
+      .row .column.push-lg-11 {
+        left: 91.6666666667%; }
+      .row .column.offset-lg-12 {
+        margin-left: 100%; }
+      .row .column.pull-lg-12 {
+        right: 100%; }
+      .row .column.push-lg-12 {
+        left: 100%; } }
+    @media only screen and (min-width: 1441px) {
+      .row .column.xl-1 {
+        width: 8.3333333333%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-2 {
+        width: 16.6666666667%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-3 {
+        width: 25%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-4 {
+        width: 33.3333333333%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-5 {
+        width: 41.6666666667%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-6 {
+        width: 50%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-7 {
+        width: 58.3333333333%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-8 {
+        width: 66.6666666667%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-9 {
+        width: 75%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-10 {
+        width: 83.3333333333%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-11 {
+        width: 91.6666666667%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.xl-12 {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: auto;
+        left: auto;
+        right: auto; }
+      .row .column.offset-xl-1 {
+        margin-left: 8.3333333333%; }
+      .row .column.pull-xl-1 {
+        right: 8.3333333333%; }
+      .row .column.push-xl-1 {
+        left: 8.3333333333%; }
+      .row .column.offset-xl-2 {
+        margin-left: 16.6666666667%; }
+      .row .column.pull-xl-2 {
+        right: 16.6666666667%; }
+      .row .column.push-xl-2 {
+        left: 16.6666666667%; }
+      .row .column.offset-xl-3 {
+        margin-left: 25%; }
+      .row .column.pull-xl-3 {
+        right: 25%; }
+      .row .column.push-xl-3 {
+        left: 25%; }
+      .row .column.offset-xl-4 {
+        margin-left: 33.3333333333%; }
+      .row .column.pull-xl-4 {
+        right: 33.3333333333%; }
+      .row .column.push-xl-4 {
+        left: 33.3333333333%; }
+      .row .column.offset-xl-5 {
+        margin-left: 41.6666666667%; }
+      .row .column.pull-xl-5 {
+        right: 41.6666666667%; }
+      .row .column.push-xl-5 {
+        left: 41.6666666667%; }
+      .row .column.offset-xl-6 {
+        margin-left: 50%; }
+      .row .column.pull-xl-6 {
+        right: 50%; }
+      .row .column.push-xl-6 {
+        left: 50%; }
+      .row .column.offset-xl-7 {
+        margin-left: 58.3333333333%; }
+      .row .column.pull-xl-7 {
+        right: 58.3333333333%; }
+      .row .column.push-xl-7 {
+        left: 58.3333333333%; }
+      .row .column.offset-xl-8 {
+        margin-left: 66.6666666667%; }
+      .row .column.pull-xl-8 {
+        right: 66.6666666667%; }
+      .row .column.push-xl-8 {
+        left: 66.6666666667%; }
+      .row .column.offset-xl-9 {
+        margin-left: 75%; }
+      .row .column.pull-xl-9 {
+        right: 75%; }
+      .row .column.push-xl-9 {
+        left: 75%; }
+      .row .column.offset-xl-10 {
+        margin-left: 83.3333333333%; }
+      .row .column.pull-xl-10 {
+        right: 83.3333333333%; }
+      .row .column.push-xl-10 {
+        left: 83.3333333333%; }
+      .row .column.offset-xl-11 {
+        margin-left: 91.6666666667%; }
+      .row .column.pull-xl-11 {
+        right: 91.6666666667%; }
+      .row .column.push-xl-11 {
+        left: 91.6666666667%; }
+      .row .column.offset-xl-12 {
+        margin-left: 100%; }
+      .row .column.pull-xl-12 {
+        right: 100%; }
+      .row .column.push-xl-12 {
+        left: 100%; } }
+
+/*=====  End of Dynamic layout         ======*/
+
+/*# sourceMappingURL=main.css.map */
