@@ -25,8 +25,8 @@ $extra-large-screen-up: "only screen and (min-width : #{$large-screen-up})" !def
 =============================================*/
 $columns: 12 !default;
 $gutter: 1.5rem !default;
-$top-spacing: $gutter / 3 !default;
-$bottom-spacing: $gutter / 3 !default;
+$top-spacing: $gutter / 2 !default;
+$bottom-spacing: $gutter / 1.5 !default;
 /*=====  End of Grid                  ======*/
 
 /*=============================================
